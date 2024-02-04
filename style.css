@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.border{
+    border: 1.85px solid transparent;
+    margin-right: 10px;
+}
+
+.border:hover{
+    border: solid 1.85px white;
+}
+/* Location */
+.dev{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    display: flex;
+}
+.ind{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    margin-left: 3px;
+}
+.india{
+    display: flex;
+}
+/* Search Bar */
+.nav_search{
+    display: flex;
+    background-color: #ffac40;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #ffac40;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.nav_search:hover{
+    border: 3.5px solid #ffac40;
+}
+/* Language */
+.language{
+    display: flex;
+}
+
+/* sign-in and returns */
+span{
+    font-size: 0.7rem;
+}
+.sign{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* cart */
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*  Panel */
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #cccccc;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel_info{
+    display: flex;
+}
+.panel_info{
+    width: 70%;
+    font-size: 0.85rem;
+    margin-left: 30px;
+}
+.panel_end{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Hero Section */
+
+.hero_section{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.hero_msg{
+    height: 40px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+.hero_msg a{
+    color: #007185;
+    cursor: pointer;
+}
+.hero_msg a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Shoping Section */
+
+.shop_section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+    
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    
+}
+
+.box_img{
+    height: 300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box_content p{
+    color: #007185;
+}
+
+.box_content p:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+/* Footer Panel */
+footer{
+    margin-top: 15px;
+}
+.foot_panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    
+    
+}
+
+.foot_panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot_panel3{
+    background-color: #0f1111;
+    color: white;
+    border-top: solid 0.15px white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot_panel4{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77px;
+}
